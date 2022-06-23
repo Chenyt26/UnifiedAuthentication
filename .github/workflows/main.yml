@@ -9,6 +9,10 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
+    
+    - name: Publish PyPI package 
+      run: |
+        az --help
 
     - name: Azure Login
       uses: azure/login@v1
