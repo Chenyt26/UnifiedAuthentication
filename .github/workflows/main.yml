@@ -20,4 +20,5 @@ jobs:
     - name: run script
       run: |
         sam --version
+        sam --help
         env
