@@ -20,3 +20,4 @@ jobs:
     - name: run script
       run: |
         sam --version
+        echo $AWS_ACCESS_KEY_ID
